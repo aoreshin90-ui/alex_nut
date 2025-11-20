@@ -122,7 +122,7 @@ function check_root() {
 #    sleep 2
  #   exit
 #fi
-}
+#}
 
 function arch_check() {
   if [ "$(dpkg --print-architecture)" != "amd64" ]; then
